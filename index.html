@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <form>
+      <div style="text-align: center">
+        <h2>Creación de auditorios</h2>
+        <input
+          type="number"
+          id="idAud"
+          placeholder="digite el id del auditorio"
+        /><br />
+        <input
+          type="text"
+          id="owner"
+          placeholder="digite el owner del auditorio"
+        /><br />
+        <input
+          type="number"
+          id="capacity"
+          placeholder="digite la capacidad"
+        /><br />
+        <input
+          type="number"
+          id="category_id"
+          placeholder="digite la categoria"
+        /><br />
+        <input type="text" id="name" placeholder="digite el nombre" /><br />
+        <br />
+        <button id="bmostrarAud">Mostrar Auditorios</button>
+        <button id="bguardarAud">Guardar Auditorio</button>
+        <button id="bactualizarAud">Actualizar Auditorio</button>
+        <button id="beliminarAud">Eliminar Auditorio</button>
+      </div>
+    </form>
+    
+    
+    <div id="informacionAud"></div>
+    <script  src="JS/scriptAud.js"></script>
+
+    <form>
+      <div style="text-align: center">
+        <h2>Registro de clientes</h2>
+        <input
+          type="number"
+          id="idCli"
+          placeholder="digite el id para cliente"
+        /><br />
+        <input type="text" id="nombre" placeholder="digite el nombre cliente" /><br />
+        <input type="text" id="email" placeholder="digite el email" /><br />
+        <input type="number" id="age" placeholder="digite la edad" /><br />
+        <br />
+        <button id="bmostrarCli">Mostrar Clientes</button>
+        <button id="bguardarCli">Guardar Cliente</button>
+        <button id="bactualizarCli">Actualizar Cliente</button>
+        <button id="beliminarCli">Eliminar Cliente</button>
+      </div>
+    </form>
+
+    <div id="informacionCli"></div>
+    <script  src="JS/scriptCli.js"></script>
+
+    <form>
+      <div style="text-align: center">
+        <h2>Registro de Mensajes</h2>
+        <input type="number" id="idMes" placeholder="digite el id Mensaje"/><br />
+        <input type="text" id="messagetext" placeholder="digite el mensaje" /><br />
+        
+        <br />
+        <button id="bmostrarMes">Mostrar Mensajes</button>
+        <button id="bguardarMes">Guardar Mensaje</button>
+        <button id="bactualizarMes">Actualizar Mensaje</button>
+        <button id="beliminarMes">Eliminar Mensaje</button>
+      </div>
+    </form>
+
+    <div id="informacionMes"></div>
+    <script src="JS/scriptMes.js"></script>
+
+  </body>
+</html>
